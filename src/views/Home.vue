@@ -33,7 +33,6 @@ export default {
       const data = await API.getTemplates();
       this.rootPermissionTitles = data.data.rootPermissionTitles;
       this.setRootPermission(data.data.rootPermission);
-      console.log(this.getState());
     },
 
     createPermission() {

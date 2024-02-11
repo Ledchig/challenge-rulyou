@@ -12,7 +12,6 @@ const getters = {
 const mutations = {
     setRootPermission(state, permission) {
         state.rootPermission = permission;
-        console.log(state.rootPermission)
     },
     updateAction(state, { part, action, value }) {
         state.rootPermission[part][action] = value;
