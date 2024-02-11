@@ -13,9 +13,6 @@ const mutations = {
     setRootPermission(state, permission) {
         state.rootPermission = permission;
     },
-    updateAction(state, { part, action, value }) {
-        state.rootPermission[part][action] = value;
-    },
     handleSelected(key) {
         state.selected[key] = !state.selected[key];
     }
